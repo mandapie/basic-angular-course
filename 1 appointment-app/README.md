@@ -10,10 +10,12 @@ Implemented:
   - generate an interface (model)
   - single binding
   - two-way binding
-  - (new) delete using id instead of index
+  - pipes (DatePipe)
+  - directives (ngModel)
+- CRUD
 - localStorage
-- ~~bootstrap 5~~
-- 
+- bootstrap 5
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.

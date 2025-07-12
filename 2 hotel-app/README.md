@@ -8,6 +8,7 @@ Implemented:
   - generate a module
   - generate components, attached to a module
   - Forms, Validation
+  - structural directive (ng-template)
   - generate a service
 
 ## Development server
