@@ -1,7 +1,7 @@
 # HotelApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
-This is the second lesson from the [course](https://www.udemy.com/course/complete-angular-14-course-learn-frontend-development/).
+This is the second and third lesson from the [course](https://www.udemy.com/course/complete-angular-14-course-learn-frontend-development/).
 Implemented:
 - Chapter 2 Angular topics:
   - routing
