@@ -3,6 +3,8 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
 This is the fifth lesson from the [course](https://www.udemy.com/course/complete-angular-14-course-learn-frontend-development/).
 Implemented:
+- Angular topics:
+  - use '$' suffix to indicate observable type
 - app.state
   - naming arrays is the same as naming an entity
   - AppState is also used for type safety so that is it consistent throughout the entire application
@@ -10,6 +12,8 @@ Implemented:
   - create an action
   - create a reducer
     - the name of the "parameter" in the reducer has to match the action
+  - create an effect
+- @ngrx/store-devtools (v16.3.0) + Redux DevTools browser extension to view action calls and the current state of the app
 
 ## Development server
 
