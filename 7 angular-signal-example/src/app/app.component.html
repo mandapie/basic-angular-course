@@ -1,0 +1,38 @@
+<div>
+  <span><strong>Toggle mode (no actual logic to update css)</strong></span>
+  <br>
+  <label>Mode: {{label}}</label>
+  <br>
+  <button (click)="toggleDarkMode()">Toggle</button>
+</div>
+
+<br><br>
+
+<div>
+  <span><strong>Update total price</strong></span>
+  <br>
+  <span>Price: {{price}}</span>
+  <br>
+  <span>Current quantity: <input type="number" value={{quantity()}} (change)="changeQuantity($event)"></span>
+  <br>
+  <label>Total Price: {{totalPrice()}}</label>
+</div>
+
+<br><br>
+
+<div>
+  <span>Search item: <input type="text" (input)="changeFilter($event)"></span>
+  <br>
+  <table>
+    <thead>
+      <th>Item</th>
+      <th>Price</th>
+    </thead>
+    <tbody *ngFor="let product of filteredProducts()">
+      <td>{{product.name}}</td>
+      <td>{{product.price}}</td>
+    </tbody>
+  </table>
+</div>
+
+<router-outlet></router-outlet>
